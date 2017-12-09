@@ -1,0 +1,1 @@
+int abre_arquivo();
