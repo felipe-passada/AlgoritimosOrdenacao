@@ -68,13 +68,16 @@ double insereOrdenado(){
     //Extração de dados do arquivo para struct
     PESSOA *ps = listaPessoas(14999);
 
-    clock_t tempoInicio, tempoFim;
-    tempoInicio = retornaTempo();
-
+    //extrai os dados do arquivo csv e passa para estrutura
     ler_arquivo(ps);
-    //gera_Arquivo_Ordenado(ps);
     //ordena a estrutura
     Ordena_quickSort(ps, 14999, 1);
+
+    //gera_Arquivo_Ordenado(ps);
+    gera_arquivo(ps);
+
+    clock_t tempoInicio, tempoFim;
+    tempoInicio = retornaTempo();
 
     //INSERÇÃO NA ARVORE RUBRO NEGRA
     arvoreLLRB *raizLLRB;
@@ -106,10 +109,10 @@ double insereDesordenado(){
     //Extração de dados do arquivo para struct
     PESSOA *ps = listaPessoas(14999);
 
+    ler_arquivo(ps);
+
     clock_t tempoInicio, tempoFim;
     tempoInicio = retornaTempo();
-
-    ler_arquivo(ps);
 
     //INSERÇÃO NA ARVORE RUBRO NEGRA
     arvoreLLRB *raizLLRB;

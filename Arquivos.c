@@ -47,8 +47,29 @@ void ler_arquivo(PESSOA ps[]){
     //printf("%s", str);
 
     fclose(file);
+}
 
+void gera_arquivo(PESSOA ps[]){
+    FILE *file;
+    file = fopen("massaOrdenada.csv", "w");
 
+    if(file == NULL){
+        printf("Erro ao executar leitura do arquivo");
+        exit(1);
+    }else{
+        //escrever campo por campo pegando os dados da struct
+        int i = 0;
+        for(i = 0; i < 14999; i++){
+            fprintf(file, "%d", ps[i].id);
+            fprintf(file, "%s", ps[i].nome);
+            fprintf(file, "%d", ps[i].idade);
+            fprintf(file, "%s", ps[i].empresa);
+            fprintf(file, "%s", ps[i].departamento);
+            fprintf(file, "%.2f\n", ps[i].salario);
+        }
 
+    }
+    //fechar o arquivo
+    fclose(file);
 }
 
