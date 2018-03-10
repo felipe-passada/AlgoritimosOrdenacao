@@ -1,7 +1,7 @@
 #include "Arquivos.h"
 #include "Estrutura.h"
 #include "AuxLibs/quick.h"
-#include "AuxLibs/arvoreLLRB.h"
+#include "AuxLibs/ArvoreLLRB.h"
 #include "AuxLibs/arvoreAVL.h"
 #include "AuxLibs/tempo.h"
 

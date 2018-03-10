@@ -15,6 +15,7 @@ void aguarda_enter(){
 void imprime_menu(){
     system("cls");
 
+
     printf("/--------------- TESTE DE ORDENAÇÃO---------------\\\n");
     printf("|                                                  |\n");
     printf("|--------------------- OPÇÕES ---------------------|\n");

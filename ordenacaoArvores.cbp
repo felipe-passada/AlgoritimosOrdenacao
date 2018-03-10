@@ -35,14 +35,22 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="Arquivos.h" />
-		<Unit filename="Arvores/arvoreAVL.c">
+		<Unit filename="AuxLibs/ArvoreLLRB.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="Arvores/arvoreAVL.h" />
-		<Unit filename="Arvores/arvoreLLRB.c">
+		<Unit filename="AuxLibs/ArvoreLLRB.h" />
+		<Unit filename="AuxLibs/arvoreAVL.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="Arvores/arvoreLLRB.h" />
+		<Unit filename="AuxLibs/arvoreAVL.h" />
+		<Unit filename="AuxLibs/quick.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="AuxLibs/quick.h" />
+		<Unit filename="AuxLibs/tempo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="AuxLibs/tempo.h" />
 		<Unit filename="Estrutura.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -50,18 +58,10 @@
 		<Unit filename="LibFuncoes.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="Ordenador/quick.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="Ordenador/quick.h" />
 		<Unit filename="libFuncoes.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="time/tempo.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="time/tempo.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />

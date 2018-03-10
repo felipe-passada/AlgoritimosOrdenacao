@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
-#include "LibFuncoes.h"
+#include "libFuncoes.h"
 
 int main(){
 

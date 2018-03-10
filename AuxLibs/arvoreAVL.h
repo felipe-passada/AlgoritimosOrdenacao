@@ -1,4 +1,4 @@
-#import "../estrutura.h"
+#import "../Estrutura.h"
 
 typedef struct NO *arvoreAVL;
 
